@@ -10,7 +10,15 @@ Trims the video to a set time range outputs the filename_trimmed.codec
 
 > bash video_trim.sh [video_file] [start_time] [end_time]
 >
-> e.g cool_clip.mp4 23 23:00 -> cool_clip_trimmed.mp4
+> e.g bash video_trim.sh cool_clip.mp4 23 23:00 -> cool_clip_trimmed.mp4
+
+### Convert
+
+Converts the video to a new format outputs the filename_converted.codec
+
+> bash video_convert.sh [video_file] [converted_video file]
+>
+> e.g bash video_convert cool_clip.mkv the_coolest_clip.mp4 -> the_coolest_clip_converted.mp4
 
 ### Find
 
