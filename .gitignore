@@ -1,4 +1,7 @@
 video_files.txt
 
 *.mp4
+*.MP4
 *.mkv
+*.MKV
+*.zip
